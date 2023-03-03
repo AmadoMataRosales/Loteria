@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ExamenAMR.WebSiite.Data;
 using ExamenAMR.WebSite.Models;
+using ExamenAMR.WebSite.ViewModels;
 
 namespace ExamenAMR.WebSite.Controllers
 {
@@ -22,7 +23,7 @@ namespace ExamenAMR.WebSite.Controllers
         // GET: Tablas
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Tabla.ToListAsync());
+            return View(await _context.Tabla.ToListAsync());
         }
 
         // GET: Tablas/Details/5
@@ -56,12 +57,17 @@ namespace ExamenAMR.WebSite.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,IdUsuario,Activo,FechaRegistro")] Tabla tabla)
         {
+
+            GeneraTablero(1);
+
             if (ModelState.IsValid)
             {
                 _context.Add(tabla);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            GeneraTablero(1);
             return View(tabla);
         }
 
@@ -148,14 +154,54 @@ namespace ExamenAMR.WebSite.Controllers
             {
                 _context.Tabla.Remove(tabla);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TablaExists(int id)
         {
-          return _context.Tabla.Any(e => e.Id == id);
+            return _context.Tabla.Any(e => e.Id == id);
+        }
+
+        private IEnumerable<TablaDetalleDTO> GeneraTablero(int totTableros)
+        {
+            List<TablaDetalleDTO> tablero = new List<TablaDetalleDTO>();
+
+            Random random = new Random();
+            int[] cartas = new int[16];
+
+            for (int i = 1; i <= totTableros; i++)
+            {
+
+                for (int t = 0; t <= 15; t++)
+                {
+                    int carta = random.Next(1, 54);
+
+                    bool existe = false;
+
+                    cartas[t] = carta;
+
+                    while (!existe)
+                    {
+                        if (!cartas.Contains(carta))
+                        {
+                            if (t == 15)
+                            {
+                                existe = false;
+                            }
+                            
+                        }
+
+                        tablero.Add(new TablaDetalleDTO
+                        { IdCarta = carta });
+
+                        existe = true;
+                    }
+                }
+            }
+
+            return tablero;
         }
     }
 }

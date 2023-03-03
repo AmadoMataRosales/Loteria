@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ExamenAMR.WebSiite.Data;
 using ExamenAMR.WebSite.Models;
+using ExamenAMR.WebSite.ViewModels;
 
 namespace ExamenAMR.WebSite.Controllers
 {
