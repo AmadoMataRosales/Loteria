@@ -5,6 +5,222 @@
       "PackagePath": "staticwebassets\\ExamenAMR.WebSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\01-Gallo.png",
+      "PackagePath": "staticwebassets\\Images\\01-Gallo.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\02-Diablito.png",
+      "PackagePath": "staticwebassets\\Images\\02-Diablito.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\03-LaDama.png",
+      "PackagePath": "staticwebassets\\Images\\03-LaDama.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\04-ElCatrin.png",
+      "PackagePath": "staticwebassets\\Images\\04-ElCatrin.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\05-ElParaguas.png",
+      "PackagePath": "staticwebassets\\Images\\05-ElParaguas.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\06-LaSirena.png",
+      "PackagePath": "staticwebassets\\Images\\06-LaSirena.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\07-LaEscalera.png",
+      "PackagePath": "staticwebassets\\Images\\07-LaEscalera.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\08-LaBotella.png",
+      "PackagePath": "staticwebassets\\Images\\08-LaBotella.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\09-ElBarril.png",
+      "PackagePath": "staticwebassets\\Images\\09-ElBarril.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\10-ElArbol.png",
+      "PackagePath": "staticwebassets\\Images\\10-ElArbol.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\11-ElMelon.png",
+      "PackagePath": "staticwebassets\\Images\\11-ElMelon.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\12-ElBorracho.png",
+      "PackagePath": "staticwebassets\\Images\\12-ElBorracho.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\13-ElGorrito.png",
+      "PackagePath": "staticwebassets\\Images\\13-ElGorrito.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\14-LaMuerte.png",
+      "PackagePath": "staticwebassets\\Images\\14-LaMuerte.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\15-LaPera.png",
+      "PackagePath": "staticwebassets\\Images\\15-LaPera.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\16-LaBandera.png",
+      "PackagePath": "staticwebassets\\Images\\16-LaBandera.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\17-ElBandolon.png",
+      "PackagePath": "staticwebassets\\Images\\17-ElBandolon.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\18-ElVioloncello.png",
+      "PackagePath": "staticwebassets\\Images\\18-ElVioloncello.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\19-LaGarza.png",
+      "PackagePath": "staticwebassets\\Images\\19-LaGarza.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\20-ElPajaro.png",
+      "PackagePath": "staticwebassets\\Images\\20-ElPajaro.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\21-LaMano.png",
+      "PackagePath": "staticwebassets\\Images\\21-LaMano.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\22-LaBota.png",
+      "PackagePath": "staticwebassets\\Images\\22-LaBota.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\23-LaLuna.png",
+      "PackagePath": "staticwebassets\\Images\\23-LaLuna.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\24-ElCotorro.png",
+      "PackagePath": "staticwebassets\\Images\\24-ElCotorro.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\25-ElBorracho.png",
+      "PackagePath": "staticwebassets\\Images\\25-ElBorracho.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\26-ElNegrito.png",
+      "PackagePath": "staticwebassets\\Images\\26-ElNegrito.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\27-ElCorazon.png",
+      "PackagePath": "staticwebassets\\Images\\27-ElCorazon.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\28-LaSandia.png",
+      "PackagePath": "staticwebassets\\Images\\28-LaSandia.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\29-ElTambor.png",
+      "PackagePath": "staticwebassets\\Images\\29-ElTambor.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\30-ElCamaron.png",
+      "PackagePath": "staticwebassets\\Images\\30-ElCamaron.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\31-LasJaras.png",
+      "PackagePath": "staticwebassets\\Images\\31-LasJaras.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\32-ElMusico.png",
+      "PackagePath": "staticwebassets\\Images\\32-ElMusico.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\33-LaArana.png",
+      "PackagePath": "staticwebassets\\Images\\33-LaArana.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\34-ElSoldado.png",
+      "PackagePath": "staticwebassets\\Images\\34-ElSoldado.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\35-LaEstrella.png",
+      "PackagePath": "staticwebassets\\Images\\35-LaEstrella.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\36-ElCazo.png",
+      "PackagePath": "staticwebassets\\Images\\36-ElCazo.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\37-ElMundo.png",
+      "PackagePath": "staticwebassets\\Images\\37-ElMundo.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\38-ElApache.png",
+      "PackagePath": "staticwebassets\\Images\\38-ElApache.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\39-ElNopal.png",
+      "PackagePath": "staticwebassets\\Images\\39-ElNopal.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\40-ElAlacran.png",
+      "PackagePath": "staticwebassets\\Images\\40-ElAlacran.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\41-LaRosa.png",
+      "PackagePath": "staticwebassets\\Images\\41-LaRosa.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\42-LaCalavera.png",
+      "PackagePath": "staticwebassets\\Images\\42-LaCalavera.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\43-LaCampana.png",
+      "PackagePath": "staticwebassets\\Images\\43-LaCampana.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\44-ElCantarito.png",
+      "PackagePath": "staticwebassets\\Images\\44-ElCantarito.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\45-ElVenado.png",
+      "PackagePath": "staticwebassets\\Images\\45-ElVenado.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\46-ElSol.png",
+      "PackagePath": "staticwebassets\\Images\\46-ElSol.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\47-LaCorona.png",
+      "PackagePath": "staticwebassets\\Images\\47-LaCorona.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\48-LaChalupa.png",
+      "PackagePath": "staticwebassets\\Images\\48-LaChalupa.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\49-ElPino.png",
+      "PackagePath": "staticwebassets\\Images\\49-ElPino.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\50-ElPescado.png",
+      "PackagePath": "staticwebassets\\Images\\50-ElPescado.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\51-LaPalma.png",
+      "PackagePath": "staticwebassets\\Images\\51-LaPalma.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\52-LaMaceta.png",
+      "PackagePath": "staticwebassets\\Images\\52-LaMaceta.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\53-ElArpa.png",
+      "PackagePath": "staticwebassets\\Images\\53-ElArpa.png"
+    },
+    {
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\54-LaRana.png",
+      "PackagePath": "staticwebassets\\Images\\54-LaRana.png"
+    },
+    {
       "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

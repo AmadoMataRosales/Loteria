@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using ExamenAMR.WebSite.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExamenAMR.WebSiite.Data
@@ -9,5 +10,10 @@ namespace ExamenAMR.WebSiite.Data
             : base(options)
         {
         }
+
+        public DbSet<Carta> Carta { get; set; }
+        public DbSet<Tabla> Tabla { get; set; }
+        public DbSet<TablaDetalle> TablaDetalle { get; set; }
+
     }
 }

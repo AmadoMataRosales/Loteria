@@ -1,0 +1,12 @@
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\bin\Debug\net6.0\ExamenAMR.Service.deps.json
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\bin\Debug\net6.0\ExamenAMR.Service.dll
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\bin\Debug\net6.0\ExamenAMR.Service.pdb
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.csproj.AssemblyReference.cache
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.AssemblyInfoInputs.cache
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.AssemblyInfo.cs
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.csproj.CoreCompileInputs.cache
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.dll
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\refint\ExamenAMR.Service.dll
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ExamenAMR.Service.pdb
+C:\Users\Amado\Documents\GitHub\Loteria\ExamenAMR\ExamenAMR.Service\obj\Debug\net6.0\ref\ExamenAMR.Service.dll
