@@ -1,23 +1,22 @@
-﻿@model IEnumerable<ExamenAMR.WebSite.Models.Tabla>
+﻿@model IEnumerable<ExamenAMR.WebSite.Models.TablaDetalle>
 
 @{
     ViewData["Title"] = "Index";
 }
 
+<h1>Index</h1>
+
 <p>
-    <a asp-action="Create" class="btn btn-primary">Nuevo</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdUsuario)
+                @Html.DisplayNameFor(model => model.IdTabla)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Activo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FechaRegistro)
+                @Html.DisplayNameFor(model => model.IdCarta)
             </th>
             <th></th>
         </tr>
@@ -26,13 +25,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdUsuario)
+                @Html.DisplayFor(modelItem => item.IdTabla)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Activo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaRegistro)
+                @Html.DisplayFor(modelItem => item.IdCarta)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

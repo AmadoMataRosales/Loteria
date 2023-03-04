@@ -9,7 +9,7 @@ BEGIN
 
              Id INT PRIMARY KEY IDENTITY(1,1)
              , Descripcion VARCHAR(25) NOT NULL
-             , Imagen VARCHAR(120) NOT NULL)
+             , Imagen VARCHAR(50) NOT NULL)
 END
 
  
@@ -34,7 +34,7 @@ IF OBJECT_ID('TablaDetalle', 'U') IS NULL
 
 BEGIN
 	CREATE TABLE TablaDetalle(
-		IdTablaDetalle INT IDENTITY(1,1)
+		Id INT IDENTITY(1,1)
 		, IdTabla INT NOT NULL
 		, IdCarta INT NOT NULL)
 
@@ -46,5 +46,7 @@ BEGIN
 		ALTER TABLE TablaDetalle
 		ADD CONSTRAINT KF_TablaDetalle_Carta
 		FOREIGN KEY(IdCarta)
-		REFERENCES Tabla(Id)
+		REFERENCES Carta(Id)
 END
+
+

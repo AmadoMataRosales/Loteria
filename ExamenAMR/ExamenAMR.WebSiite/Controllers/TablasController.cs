@@ -177,30 +177,48 @@ namespace ExamenAMR.WebSite.Controllers
                 for (int t = 0; t <= 15; t++)
                 {
                     int carta = random.Next(1, 54);
+                    
 
                     bool existe = false;
-
-                    cartas[t] = carta;
+                    int repetida = 0;
 
                     while (!existe)
                     {
-                        if (!cartas.Contains(carta))
-                        {
-                            if (t == 15)
-                            {
-                                existe = false;
-                            }
-                            
+
+                        if (tablero.Count == 0) {
+
+                            tablero.Add(new TablaDetalleDTO
+                            { IdCarta = carta });
+                            cartas[t] = carta;
+                            existe = true;
                         }
+                        else
+                        {
+                            for (int j = 0; j < tablero.Count(); j++) {
+                                if (tablero[j].IdCarta == carta)
+                                {
+                                    repetida++;
+                                }
+                            }
 
-                        tablero.Add(new TablaDetalleDTO
-                        { IdCarta = carta });
+                            if (repetida == 0)
+                            {
+                                tablero.Add(new TablaDetalleDTO
+                                { IdCarta = carta });
 
-                        existe = true;
+                                cartas[t] = carta;
+
+                                existe = true;
+                            }
+                            else {
+                                carta = random.Next(1, 54);
+                                repetida = 0;
+                            }
+
+                        }
                     }
                 }
             }
-
             return tablero;
         }
     }

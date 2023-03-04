@@ -216,6 +216,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/TablaDetalles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFEZXRhbGxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/TablaDetalles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFEZXRhbGxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/TablaDetalles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFEZXRhbGxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/TablaDetalles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFEZXRhbGxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/TablaDetalles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFEZXRhbGxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Amado/Documents/GitHub/Loteria/ExamenAMR/ExamenAMR.WebSiite/Views/Tablas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

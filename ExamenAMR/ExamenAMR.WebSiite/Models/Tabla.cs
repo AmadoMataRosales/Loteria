@@ -8,7 +8,7 @@ namespace ExamenAMR.WebSite.Models
         public int Id { get; set; }
 
         [Required]
-        public int IdUsuario { get; set; }
+        public string? IdUsuario { get; set; }
 
         [Required]
         public bool Activo { get; set; }
