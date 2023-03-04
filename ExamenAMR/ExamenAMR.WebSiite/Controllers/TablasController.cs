@@ -178,13 +178,11 @@ namespace ExamenAMR.WebSite.Controllers
                 {
                     int carta = random.Next(1, 54);
                     
-
                     bool existe = false;
                     int repetida = 0;
 
                     while (!existe)
                     {
-
                         if (tablero.Count == 0) {
 
                             tablero.Add(new TablaDetalleDTO
