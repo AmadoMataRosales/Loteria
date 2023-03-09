@@ -1,13 +1,22 @@
 ﻿@model ExamenAMR.WebSite.Models.Tabla
 
+
 @{
     ViewData["Title"] = "Create";
 }
 
-<h4>Tabla</h4>
-<hr />
+<form class="row g-3">
+    <div class="col-auto">
+        <input type="number" class="form-control" id="tablas" placeholder="Ingresa un número">
+    </div>
+    <div class="col-auto">
+        <button type="button" id="btncrear" class="btn btn-primary mb-3">Crear</button>
+    </div>
+</form>
+
 <div class="row">
     <div class="col-md-4">
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -36,6 +45,40 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+    
+        var total = $('#tablas').val();
+
+        $('#btncrear').on('click', function () {
+
+            if ($('#tablas').val() !== "" && $('#tablas').val() !== null && $('#tablas').val() !== undefined)
+            {
+                $.ajax({
+                    url: '@Url.Action("GeneraTablero", "Tablas")',
+                    data: { totTableros: $('#tablas').val() }, //Datos
+                    type: "GET"  // Verbo HTTP
+                }).done(function (result){
+                    console.log(result);
+                }).fail(function (xhr, status, error) {
+                    alert("Error")
+                });
+            }
+            else{
+                alert("Ingrese un número.");
+            }
+
+
+                
+        });
+    
+    });
+</script>

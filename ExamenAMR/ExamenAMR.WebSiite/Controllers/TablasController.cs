@@ -164,7 +164,7 @@ namespace ExamenAMR.WebSite.Controllers
             return _context.Tabla.Any(e => e.Id == id);
         }
 
-        private IEnumerable<TablaDetalleDTO> GeneraTablero(int totTableros)
+        public IEnumerable<TablaDetalleDTO> GeneraTablero(int totTableros)
         {
             List<TablaDetalleDTO> tablero = new List<TablaDetalleDTO>();
 
@@ -217,7 +217,7 @@ namespace ExamenAMR.WebSite.Controllers
                     }
                 }
             }
-            return tablero;
+            return tablero.ToList();
         }
     }
 }
