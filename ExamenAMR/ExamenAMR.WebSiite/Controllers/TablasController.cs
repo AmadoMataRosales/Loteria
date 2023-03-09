@@ -58,8 +58,6 @@ namespace ExamenAMR.WebSite.Controllers
         public async Task<IActionResult> Create([Bind("Id,IdUsuario,Activo,FechaRegistro")] Tabla tabla)
         {
 
-            GeneraTablero(1);
-
             if (ModelState.IsValid)
             {
                 _context.Add(tabla);
@@ -67,7 +65,6 @@ namespace ExamenAMR.WebSite.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            GeneraTablero(1);
             return View(tabla);
         }
 
@@ -164,9 +161,9 @@ namespace ExamenAMR.WebSite.Controllers
             return _context.Tabla.Any(e => e.Id == id);
         }
 
-        public IEnumerable<TablaDetalleDTO> GeneraTablero(int totTableros)
+        public async Task<IEnumerable<TableroDTO>> GeneraTablero(int totTableros)
         {
-            List<TablaDetalleDTO> tablero = new List<TablaDetalleDTO>();
+            List<TableroDTO> tablero = new List<TableroDTO>();
 
             Random random = new Random();
             int[] cartas = new int[16];
@@ -185,7 +182,7 @@ namespace ExamenAMR.WebSite.Controllers
                     {
                         if (tablero.Count == 0) {
 
-                            tablero.Add(new TablaDetalleDTO
+                            tablero.Add(new TableroDTO
                             { IdCarta = carta });
                             cartas[t] = carta;
                             existe = true;
@@ -201,7 +198,7 @@ namespace ExamenAMR.WebSite.Controllers
 
                             if (repetida == 0)
                             {
-                                tablero.Add(new TablaDetalleDTO
+                                tablero.Add(new TableroDTO
                                 { IdCarta = carta });
 
                                 cartas[t] = carta;
@@ -212,11 +209,27 @@ namespace ExamenAMR.WebSite.Controllers
                                 carta = random.Next(1, 54);
                                 repetida = 0;
                             }
-
                         }
                     }
                 }
             }
+            var cartasId = tablero.Select(s=> s.IdCarta);
+
+            var cartasSeleccionada = (await _context.Carta.ToListAsync()).Where(c => cartasId.Contains(c.Id)).ToList();
+
+            int cart = 0; 
+            foreach (var item in cartasSeleccionada)
+            {
+                var id = item.Id;
+                var descripcion = item.Descripcion;
+                var imagen = item.Imagen;
+
+                tablero[cart].Descripcion = item.Descripcion;
+                tablero[cart].Imagen = item.Imagen;
+
+                cart ++;
+            }
+
             return tablero.ToList();
         }
     }

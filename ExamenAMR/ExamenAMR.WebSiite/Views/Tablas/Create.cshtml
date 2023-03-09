@@ -1,6 +1,5 @@
 ﻿@model ExamenAMR.WebSite.Models.Tabla
 
-
 @{
     ViewData["Title"] = "Create";
 }
@@ -10,9 +9,15 @@
         <input type="number" class="form-control" id="tablas" placeholder="Ingresa un número">
     </div>
     <div class="col-auto">
-        <button type="button" id="btncrear" class="btn btn-primary mb-3">Crear</button>
+        <button type="submit" id="btncrear" class="btn btn-primary mb-3">Crear</button>
     </div>
 </form>
+
+<div class="container text-center">
+    <div class="row align-items-center" id="lista">
+        <p>Tablero</p>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-md-4">
@@ -48,37 +53,51 @@
 
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
-    
+
         var total = $('#tablas').val();
 
         $('#btncrear').on('click', function () {
 
-            if ($('#tablas').val() !== "" && $('#tablas').val() !== null && $('#tablas').val() !== undefined)
-            {
+            if ($('#tablas').val() !== "" && $('#tablas').val() !== null && $('#tablas').val() !== undefined) {
                 $.ajax({
                     url: '@Url.Action("GeneraTablero", "Tablas")',
                     data: { totTableros: $('#tablas').val() }, //Datos
                     type: "GET"  // Verbo HTTP
-                }).done(function (result){
+                }).done(function (result) {
                     console.log(result);
+
+                    $('#lista').html('');
+                    var datos = '';
+
+                    for (var i = 0; i < result.length; i++) {
+                        var imagePath = "";
+                        imagePath = "/Images" + item.Imagen;
+
+                        datos = '<div class=style="width: 15%; height:10%; text-align:center; padding-top:5px; margin:2px;">' + result[i].Descripcion + '</div>'
+                    }
+
+                    $('#lista').html(datos);
+
                 }).fail(function (xhr, status, error) {
                     alert("Error")
                 });
             }
-            else{
+            else {
                 alert("Ingrese un número.");
             }
 
 
-                
+
         });
-    
+
     });
 </script>

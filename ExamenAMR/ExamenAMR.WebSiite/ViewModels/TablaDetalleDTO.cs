@@ -12,5 +12,9 @@ namespace ExamenAMR.WebSite.ViewModels
 
         [Required]
         public int IdCarta { get; set; }
+        
+        public string Descripcion { get; set; } = string.Empty;
+
+        public string Imagen { get; set; } = string.Empty;
     }
 }
