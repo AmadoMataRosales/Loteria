@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenAMR.WebSite", "ExamenAMR.WebSiite\ExamenAMR.WebSite.csproj", "{A834A495-AC5F-4489-B721-910D16CEF5F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenAMR.WebSiite", "ExamenAMR.WebSiite\ExamenAMR.WebSiite.csproj", "{A834A495-AC5F-4489-B721-910D16CEF5F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenAMR.Service", "ExamenAMR.Service\ExamenAMR.Service.csproj", "{7BACF5F6-8D60-4ACE-94B4-E2E6AA127285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenAMR.Service", "ExamenAMR.Service\ExamenAMR.Service.csproj", "{7BACF5F6-8D60-4ACE-94B4-E2E6AA127285}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

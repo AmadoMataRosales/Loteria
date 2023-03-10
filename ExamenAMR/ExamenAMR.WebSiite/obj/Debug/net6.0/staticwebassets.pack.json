@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ExamenAMR.WebSite.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ExamenAMR.WebSite.bundle.scp.css"
+      "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ExamenAMR.WebSiite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ExamenAMR.WebSiite.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\wwwroot\\Images\\01-Gallo.png",
@@ -461,20 +461,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ExamenAMR.WebSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ExamenAMR.WebSiite.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ExamenAMR.WebSite.props",
-      "PackagePath": "build\\ExamenAMR.WebSite.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ExamenAMR.WebSiite.props",
+      "PackagePath": "build\\ExamenAMR.WebSiite.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ExamenAMR.WebSite.props",
-      "PackagePath": "buildMultiTargeting\\ExamenAMR.WebSite.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ExamenAMR.WebSiite.props",
+      "PackagePath": "buildMultiTargeting\\ExamenAMR.WebSiite.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ExamenAMR.WebSite.props",
-      "PackagePath": "buildTransitive\\ExamenAMR.WebSite.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ExamenAMR.WebSiite.props",
+      "PackagePath": "buildTransitive\\ExamenAMR.WebSiite.props"
     }
   ],
   "ElementsToRemove": []

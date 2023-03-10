@@ -10465,9 +10465,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSite.csproj",
-      "projectName": "ExamenAMR.WebSite",
-      "projectPath": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSite.csproj",
+      "projectUniqueName": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSiite.csproj",
+      "projectName": "ExamenAMR.WebSiite",
+      "projectPath": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSiite.csproj",
       "packagesPath": "C:\\Users\\Amado\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHaz6YZoR4AQPoR7wA66+RfJiQEVqPb4jJFiYA78ISfib3gUyImrpZV6w0c1WnhwaU9Dv2TmtRQPGH1vU76udg==",
+  "dgSpecHash": "95qrqGaiqWEz2UcHsy3fMMENQ6kbgmUeJg8UB5ai05xK2Rx9mD3NrNsfOVF+3WbKmw+OS454PJOfVNH7jPbOOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSite.csproj",
+  "projectFilePath": "C:\\Users\\Amado\\Documents\\GitHub\\Loteria\\ExamenAMR\\ExamenAMR.WebSiite\\ExamenAMR.WebSiite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amado\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Amado\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
